@@ -44,9 +44,7 @@ public async static void NoRecoil()
         MemLib.OpenProcess(proc);
 
         var addresses = await MemLib.AoBScan2(
-            "30 48 2D E9 08 B0 8D E2 02 8B 2D ED 00 40 A0 E1 38 01 9F E5 " +
-            "00 00 8F E0 00 00 D0 E5 00 00 50 E3 06 00 00 1A 28 01 9F E5 " +
-            "00 00 9F E7 00 00 90 E5", true);
+            "30 48 2D E9 08 B0 8D E2 02 8B 2D ED 00 40 A0 E1 38 01 9F E5 00 00 8F E0 00 00 D0 E5 00 00 50 E3 06 00 00 1A 28 01 9F E5 00 00 9F E7 00 00 90 E5", true);
 
         if (addresses == null || !addresses.Any())
         {
@@ -55,9 +53,7 @@ public async static void NoRecoil()
         }
 
         string replacement =
-            "00 00 A0 E3 1E FF 2F E1 02 8B 2D ED 00 40 A0 E1 38 01 9F E5 " +
-            "00 00 8F E0 00 00 D0 E5 00 00 50 E3 06 00 00 1A 28 01 9F E5 " +
-            "00 00 9F E7 00 00 90 E5";
+            "00 00 A0 E3 1E FF 2F E1 02 8B 2D ED 00 40 A0 E1 38 01 9F E5 00 00 8F E0 00 00 D0 E5 00 00 50 E3 06 00 00 1A 28 01 9F E5 00 00 9F E7 00 00 90 E5";
 
         foreach (var addr in addresses)
         {

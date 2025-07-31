@@ -1,8 +1,0 @@
-C:\Users\Administrator\Desktop\external\obj\Debug\external.csproj.AssemblyReference.cache
-C:\Users\Administrator\Desktop\external\obj\Debug\external.csproj.CoreCompileInputs.cache
-C:\Users\Administrator\Desktop\external\bin\Debug\external.exe.config
-C:\Users\Administrator\Desktop\external\bin\Debug\external.exe
-C:\Users\Administrator\Desktop\external\bin\Debug\external.pdb
-C:\Users\Administrator\Desktop\external\obj\Debug\external.exe
-C:\Users\Administrator\Desktop\external\obj\Debug\external.pdb
-C:\Users\Administrator\Desktop\external\obj\Debug\external.exe.config
